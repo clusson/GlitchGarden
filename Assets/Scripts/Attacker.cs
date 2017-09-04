@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TEST : MonoBehaviour {
+public class Attacker : MonoBehaviour {
+
+	[Range (-1f,1.5f)]
+	public float walkSpeed;
 
 	// Use this for initialization
 	void Start () {
-		print(PlayerPrefsManager.GetMasterVolume());
-		PlayerPrefsManager.SetMasterVolume(0.3f);
-		print(PlayerPrefsManager.GetMasterVolume());
-
+			
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		transform.Translate (Vector3.left * walkSpeed * Time.deltaTime);
 	}
 }

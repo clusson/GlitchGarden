@@ -40,7 +40,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51118a175b600fa4fb324f7408d92b53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  autoLoadNextLevelAfter: 0
+  autoLoadNextLevelAfter: 3
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
