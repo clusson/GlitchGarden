@@ -22,6 +22,8 @@ GameObject:
   - component: {fileID: 95826324156572718}
   - component: {fileID: 61212340801547364}
   - component: {fileID: 114163098301314914}
+  - component: {fileID: 114602624350065858}
+  - component: {fileID: 114186983296539686}
   m_Layer: 0
   m_Name: Grave Stone
   m_TagString: Untagged
@@ -51,8 +53,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1109208822421320}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: 3, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 7, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4899055924380250}
@@ -67,7 +69,7 @@ Transform:
   m_GameObject: {fileID: 1666929205278446}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.47, y: 0.47, z: 0.47}
+  m_LocalScale: {x: 0.47, y: 0.38, z: 0.47}
   m_Children: []
   m_Father: {fileID: 4054203962835662}
   m_RootOrder: 0
@@ -95,7 +97,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.44, y: 0.91}
+  m_Size: {x: 0.62, y: 0.82}
   m_EdgeRadius: 0
 --- !u!95 &95826324156572718
 Animator:
@@ -123,6 +125,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ae229c7f4856dc4b9a97348cc22a7d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114186983296539686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1109208822421320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 145bf713faa3060408354cd132ce64d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 500
+--- !u!114 &114602624350065858
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1109208822421320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7664eeda283ae04697bf547a3ef26ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &212430575777424834
