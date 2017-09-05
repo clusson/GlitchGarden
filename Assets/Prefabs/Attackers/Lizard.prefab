@@ -20,10 +20,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4309918042324308}
   - component: {fileID: 95439024567072314}
-  - component: {fileID: 114933491459414398}
   - component: {fileID: 61348125959515196}
-  - component: {fileID: 114450254693690638}
   - component: {fileID: 50555144959522878}
+  - component: {fileID: 114933491459414398}
+  - component: {fileID: 114450254693690638}
   - component: {fileID: 114126364026846696}
   - component: {fileID: 114709411571066728}
   m_Layer: 0
