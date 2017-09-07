@@ -535,19 +535,19 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: f37a01d8d8fd644e585e874d6c44f61b, type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -625
+      value: -531.3
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: f37a01d8d8fd644e585e874d6c44f61b, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -8
+      value: -5.2
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: f37a01d8d8fd644e585e874d6c44f61b, type: 2}
       propertyPath: m_SizeDelta.x
-      value: 223
+      value: 410.4
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: f37a01d8d8fd644e585e874d6c44f61b, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 67
+      value: 61.4
       objectReference: {fileID: 0}
     - target: {fileID: 22400000, guid: f37a01d8d8fd644e585e874d6c44f61b, type: 2}
       propertyPath: m_AnchorMin.x
@@ -572,10 +572,6 @@ Prefab:
     - target: {fileID: 22400000, guid: f37a01d8d8fd644e585e874d6c44f61b, type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: f37a01d8d8fd644e585e874d6c44f61b, type: 2}
-      propertyPath: m_Text
-      value: Play Again
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f37a01d8d8fd644e585e874d6c44f61b, type: 2}
