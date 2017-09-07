@@ -78,6 +78,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ef182f3f9bf2bd4ab26dce8e46fcf40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defenderPrefab: {fileID: 132766, guid: 78e28c05c1b66419db6d12f90d173661, type: 2}
 --- !u!212 &212242424909017804
 SpriteRenderer:
   m_ObjectHideFlags: 1
